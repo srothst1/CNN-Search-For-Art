@@ -1,0 +1,9 @@
+Data Set:
+https://www.robots.ox.ac.uk/~vgg/data/paintings/
+
+Info:
+Spreadsheet of Data (March 2018): "Your Paintings" has been completely moved to ArtUK.
+This new spreadsheet contains the updated URLs to the images and the web pages with 
+information about them. Unfortunately, please be aware that 56 images from the original
+dataset are now innacessible. They are marked as "N/A" in the spreadsheet. In addition,
+all ArtUK URLs are pointing to images with a fixed width of 550px. 
