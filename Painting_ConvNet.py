@@ -36,8 +36,8 @@ rgb_images = [] #NxN arrays that contain rgb values
 images = [] #image types that contain the acutal images
 
 
-#enter = int(input("Please enter the number of images you want to process:  ")) #used for testing
-enter = 5585 #length of the data set
+enter = int(input("Please enter the number of images you want to process:  ")) #used for testing
+#enter = 5585 #length of the data set
 
 print("processing data....")
 
@@ -77,11 +77,11 @@ standard_labels = standard_labels[1:]
 
 #testing data sets
 print("- - -")
-t = input("Please enter 0 if you would like to test a few data points: ")
+t = input("Please enter 0 if you would like to test a few data points before continuing to train the network: ")
 if t == 0:
     x = ""
     while x != "exit":
-        i = int(input("Please enter the index of the image you would like to see: "))
+        i = int(input("Please enter the index of the image you would like to test: "))
         images[i].show()
         print(rgb_images[i])
         print("one hot label: ")
