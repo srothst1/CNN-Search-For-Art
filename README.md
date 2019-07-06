@@ -1,4 +1,4 @@
-# CNN-Search-For-Art
+# ConvNet-Search-For-Art
 
 Dataset Overview:
 "The dataset covers ten of the categories present in PASCAL VOC, and is split 
